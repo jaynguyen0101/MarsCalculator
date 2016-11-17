@@ -14,6 +14,7 @@
 		8C3CE6541DD3BC46004AEBC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3CE6521DD3BC46004AEBC4 /* LaunchScreen.storyboard */; };
 		8C3CE65F1DD3BC47004AEBC4 /* Mars_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CE65E1DD3BC47004AEBC4 /* Mars_CalculatorTests.swift */; };
 		8C3CE66A1DD3BC47004AEBC4 /* Mars_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CE6691DD3BC47004AEBC4 /* Mars_CalculatorUITests.swift */; };
+		8C3CE6781DD3BCE6004AEBC4 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C3CE6771DD3BCE6004AEBC4 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8C3CE6651DD3BC47004AEBC4 /* Mars CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mars CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3CE6691DD3BC47004AEBC4 /* Mars_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mars_CalculatorUITests.swift; sourceTree = "<group>"; };
 		8C3CE66B1DD3BC47004AEBC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C3CE6771DD3BCE6004AEBC4 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		8C3CE6481DD3BC46004AEBC4 /* Mars Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				8C3CE6771DD3BCE6004AEBC4 /* btn.wav */,
 				8C3CE6491DD3BC46004AEBC4 /* AppDelegate.swift */,
 				8C3CE64B1DD3BC46004AEBC4 /* ViewController.swift */,
 				8C3CE64D1DD3BC46004AEBC4 /* Main.storyboard */,
@@ -238,6 +241,7 @@
 				8C3CE6541DD3BC46004AEBC4 /* LaunchScreen.storyboard in Resources */,
 				8C3CE6511DD3BC46004AEBC4 /* Assets.xcassets in Resources */,
 				8C3CE64F1DD3BC46004AEBC4 /* Main.storyboard in Resources */,
+				8C3CE6781DD3BCE6004AEBC4 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +421,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WAQTAJ6CJ2;
 				INFOPLIST_FILE = "Mars Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "e-rehab.Mars-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WAQTAJ6CJ2;
 				INFOPLIST_FILE = "Mars Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "e-rehab.Mars-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
